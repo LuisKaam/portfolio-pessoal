@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 56px;
+}
+
+.perfil {
+    padding: 100px 0;
+    background-color: #eeeeee;
+}
+
+.projeto {
+    transition: 0.3s;
+}
+
+.projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.habilidades {
+    background-color: #eeeeee;
+}
+
+.habilidade {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.habilidade:hover {
+    transform: scale(1.05);
+}
